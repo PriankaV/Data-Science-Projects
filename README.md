@@ -1,18 +1,10 @@
-
-Your README should provide a clear, concise overview of your GitHub repository. Since this repository contains your four homework projects, you can frame it as a collection of machine learning projects showcasing your skills in data analysis, model building, and evaluation. Here's a suggested outline for your README:
-
-Machine Learning Projects Repository
-This repository contains a collection of machine learning projects that demonstrate various data preprocessing, model training, evaluation, and visualization techniques. Each project focuses on solving specific classification or prediction tasks using real-world datasets and industry-standard methodologies.
+**Data Science Projects Repository**
+This repository contains a collection of data science learning projects that demonstrate various data preprocessing, model training, evaluation, and visualization techniques. Each project focuses on solving specific classification or prediction tasks using real-world datasets and industry-standard methodologies.
 
 Projects Included
-Breast Cancer Classifier
-
-Objective: Compare Decision Tree, Random Forest, and K-Nearest Neighbors classifiers for binary classification of breast cancer data.
-Highlights:
-Data preprocessing with StandardScaler.
-Hyperparameter tuning using GridSearchCV.
-Model evaluation with F1-score, ROC curves, and confusion matrices.
-Multiclass Classification with Logistic Regression, SVM, and MLP
+- Breast Cancer Classifier
+    - Objective: Compare Decision Tree, Random Forest, and K-Nearest Neighbors classifiers for binary classification of breast cancer data.
+    - Highlights: Data preprocessing with StandardScaler. Hyperparameter tuning using GridSearchCV. Model evaluation with F1-score, ROC curves, and confusion matrices. Multiclass Classification with Logistic Regression, SVM, and MLP
 
 Objective: Classify data into four performance categories: Poor, Average, Good, and Excellent.
 Highlights:
