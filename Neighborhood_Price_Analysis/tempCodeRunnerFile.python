@@ -1,0 +1,32 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Values of x
+x_values = [2, 4, 5, 6]
+# PMF values
+pmf_values = [4/81, 16/81, 25/81, 36/81]
+# CDF values
+cdf_values = [4/81, 20/81, 45/81, 1]
+
+# Creating the PMF graph
+plt.figure(figsize=(12, 6))
+
+# PMF Plot
+plt.subplot(1, 2, 1)
+plt.stem(x_values, pmf_values, basefmt=" ", use_line_collection=True)
+plt.title('Probability Mass Function (PMF)')
+plt.xlabel('x')
+plt.ylabel('P(x)')
+plt.xticks(x_values)
+
+# CDF Plot
+plt.subplot(1, 2, 2)
+plt.step(x_values, cdf_values + [1], where='post', color='orange', linewidth=2)  # Adding 1 for the last value
+plt.title('Cumulative Distribution Function (CDF)')
+plt.xlabel('x')
+plt.ylabel('F(x)')
+plt.xticks(x_values)
+plt.ylim(0, 1.1)
+
+plt.tight_layout()
+plt.show()
